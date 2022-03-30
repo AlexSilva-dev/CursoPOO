@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package com.mycompany.aulapratica6;
+
+/**
+ *
+ * @author alex
+ */
+public interface Controlador {
+        public abstract void ligar();
+        public abstract void desligar();
+        public abstract void abrirMenu();
+        public abstract void fecharMenu();
+        public abstract void maisVol();
+        public abstract void menosVol();
+        public abstract void ligarMudo();
+        public abstract void desligarMudo();
+        public abstract void play();
+        public abstract void pause();
+        
+    
+}
